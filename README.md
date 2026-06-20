@@ -7,7 +7,7 @@ Financial services companies receive large volumes of unstructured customer comp
 **Dataset:** CFPB Consumer Complaint Database — public, real-world financial services complaint narratives.
 https://www.consumerfinance.gov/data-research/consumer-complaints/#get-the-data
 
-## APPROAC
+## APPROACH
 ### 1. Preprocessing
 Cleaned raw complaint narratives: lowercased, removed redaction placeholders (XXXX), punctuation, and numbers
 Tokenized, removed stopwords (standard English + domain-specific terms like "account," "bureau," "report" that appear across nearly all complaints regardless of topic), and lemmatized using NLTK
